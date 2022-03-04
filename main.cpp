@@ -55,7 +55,7 @@ int main()
 
         sendWebhook(postContent);
         std::cout << "\n" << "{" << "\n" << "  " << "'content': '" << postContent << "'," << "\n" << "  " << "'api_response': 'successfully sent'," << "\n" << "  " << "'rate_limited': false" << "\n" << "   " << "Message sent." << "\n" << "}" << std::endl;
-
+        // ofc this is a semi-fake api response just do add some "style"
     }
 
     else
@@ -77,6 +77,7 @@ int main()
 
             sendWebhook(postContent);
             std::cout << "\n" << "{" << "\n" << "  " << "'content': '" << postContent << "'," << "\n" << "  " << "'api_response': 'successfully sent'," << "\n" << "  " << "'rate_limited': false" << "\n" << "   " << "Message sent." << "\n" << "}" << std::endl;
+            // ofc this is a semi-fake api response just do add some "style"
         }
         else
         {
